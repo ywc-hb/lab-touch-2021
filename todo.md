@@ -7,3 +7,4 @@
 
 L'affichage de caractères n'est pas encore disponible.
 La prise en compte du style de ligne n'est pas disponible.
+La prise en compte du style de cercle n'est pas disponible.

@@ -1,5 +1,5 @@
 #include "LCD.h"
-#include <cstdlib>
+#include <cmath>
 
 LCD_Driver LCD_Driver;
 
@@ -232,4 +232,15 @@ void LCD::Draw_Line(int Xstart, int Ystart, int Xend, int Yend, UWORD Color, int
         }
     }
     LCD::Draw_Point(Xend, Yend, Color, Dot);
+}
+
+void LCD::Draw_Circle(int Xcenter, int Ycenter, int rad, UWORD Color) {
+    for(int y {Ycenter - rad}; y <= Ycenter + rad; y++) {
+        for(int x {Xcenter - rad}; x <= Xcenter + rad; x++) {
+            int d { static_cast<int>(std::sqrt(std::pow(Xcenter - x, 2) + std::pow(Ycenter - y, 2))) };
+            if(d <= rad) {
+                LCD::Draw_Point(x, y, Color, DOT_PIXEL_1);
+            }
+        }
+    }
 }
