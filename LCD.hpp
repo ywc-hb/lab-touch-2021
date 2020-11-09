@@ -1,5 +1,5 @@
-#ifndef LCD_H
-#define LCD_H
+#ifndef LCD_HPP
+#define LCD_HPP
 
 #include "LCD_Driver.h"
 

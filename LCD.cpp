@@ -1,4 +1,4 @@
-#include "LCD.h"
+#include "LCD.hpp"
 #include <cmath>
 
 LCD_Driver LCD_Driver;

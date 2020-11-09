@@ -1,5 +1,7 @@
 #include "MicroBit.h"
-#include "LCD.h"
+#include "LCD.hpp"
+#include "Pattern.hpp"
+#include "PlayerBall.hpp"
 
 MicroBit uBit;
 
