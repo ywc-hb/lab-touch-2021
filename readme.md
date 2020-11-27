@@ -1,19 +1,24 @@
 # LabTouch #
 
-## Présentation de notre projet ##
+## PrÃ©sentation de notre projet ##
 
-Dans le cadre du concours _Yes We Code 2021_, nous nous sommes lancés dans la création d'un jeu vidéo (ainsi que tout ce qu'il y a autour). Notre jeu vidéo s'appelle : _LabTouch_ !
+Dans le cadre du concours _Yes We Code 2021_, nous nous sommes lancÃ©s dans la crÃ©ation d'un jeu vidÃ©o (ainsi que tout ce qu'il y a autour). Notre jeu vidÃ©o s'appelle : _LabTouch_ !
 
-Le but est simple : toucher l'adversaire sans se faire toucher. Mais si vous êtes touché(e), ne désespérez pas pour autant ! Vous avez droit à une nouvelle chance si vous tappez le code que vous aurez mémorisé en début de partie ! Bien évidemment, une fois ce code utilisé, la microbit vous en donnera un autre plus long cette fois-ci, et donc plus compliqué à retenir.
+Le but est simple : toucher l'adversaire sans se faire toucher. Mais si vous Ãªtes touchÃ©(e), ne dÃ©sespÃ©rez pas pour autant ! Vous avez droit Ã  une nouvelle chance si vous tappez le code que vous aurez mÃ©morisÃ© en dÃ©but de partie ! Bien Ã©videmment, une fois ce code utilisÃ©, la microbit vous en donnera un autre plus long cette fois-ci, et donc plus compliquÃ© Ã  retenir.
 
-Pour tuer un adversaire, c'est très simple, il suffit de le toucher avec la balle. Mais attention, de nombreux obstacles se trouvent sur votre chemin et peuvent vous gêner. Il va donc falloir ruser pour atteindre son adversaire !
+Pour tuer un adversaire, c'est trÃ¨s simple, il suffit de le toucher avec la balle. Mais attention, de nombreux obstacles se trouvent sur votre chemin et peuvent vous gÃªner. Il va donc falloir ruser pour atteindre son adversaire !
 
-À ce stade, vous vous demandez certainement où se trouve la manette pour controler votre personnage, n'est-ce pas ?
-Et bien la manette, c'est le t-shirt ! Il vous suffit de tapoter sur les formes pour vous déplacer ou bien tirer sur votre adversaire !
+Ã€ ce stade, vous vous demandez certainement oÃ¹ se trouve la manette pour controler votre personnage, n'est-ce pas ?
+Et bien la manette, c'est le t-shirt ! Il vous suffit de tapoter sur les formes pour vous dÃ©placer ou bien tirer sur votre adversaire !
 
-## Détails techniques ##
+## IdÃ©es pour la vidÃ©o ##
 
-Ce projet est codé en C++. Un fichier compilé pour la microbit sera disponible lorsque le projet sera terminé, mais si vous êtes impatient, n'hésitez pas à nous contacter !
+- Mettre l'accent sur les difficultÃ©s rencontrÃ©es : problÃ¨me de mÃ©moire, connection avec l'Ã©cran, utilisation de l'Ã©cran
+- Mettre les photos des brainstormings
 
-### Les répertoires associés ###
-Les répertoires nécessaires sont le [driver de l'écran](https://github.com/waveshare/WSLCD1in8-v0/) et de la [microbit]()
+## DÃ©tails techniques ##
+
+Ce projet est codÃ© en C++. Un fichier compilÃ© pour la microbit sera disponible lorsque le projet sera terminÃ©, mais si vous Ãªtes impatient, n'hÃ©sitez pas Ã  nous contacter !
+
+### Les rÃ©pertoires associÃ©s ###
+Les rÃ©pertoires nÃ©cessaires sont le [driver de l'Ã©cran](https://github.com/waveshare/WSLCD1in8-v0/) et de la [microbit]()
